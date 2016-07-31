@@ -57,6 +57,13 @@ h1 {
     height: 34%;
 }
 
+#team {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 40%;
+}
+
 div.container {
     margin-top: 16%;
 }
