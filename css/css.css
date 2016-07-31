@@ -58,16 +58,24 @@ h1 {
 }
 
 #team {
-    position: absolute;
+    float: right;
+    margin-top: 10px;
     width: 50%;
     height: 70%;
-    left: 40%;
+}
+
+div.menu {
+    position: absolute;
+    left: 10%;
+    top: 32%;
+    width: 80%;
 }
 
 div.container {
     position: absolute;
+    margin-top: 1%;
     left: 10%;
-    top: 32%;
+    top: 40%;
 }
 
 #line {
@@ -91,11 +99,8 @@ hr {
 }
 
 nav {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    top: 0%;
     padding: 24px;
+    margin: auto;
     text-align: center;
     font-family: Raleway;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
@@ -112,7 +117,7 @@ nav {
     text-decoration: none !important;
     padding: 0px 30px 0px 10px;
     margin: 0 10px;
-    border-right: 1px solid #000000;
+    border-right: 1px solid white;
 }
 
 .link-3:hover {
